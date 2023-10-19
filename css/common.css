@@ -22,3 +22,37 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+
+/*TAREA 3*/
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery li {
+  margin: 10px;
+  list-style: none
+}
+
+.gallery img {
+  width: auto;
+  height: 250px;
+  border-radius: 5px;
+}
+
+/*TAREA 6*/
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
